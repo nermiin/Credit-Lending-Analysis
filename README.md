@@ -16,6 +16,9 @@ Showcases BA deliverables for a personal loan product: credit policy translation
 | [User Stories & Acceptance Criteria](docs/04-user-stories-and-acceptance-criteria.md) | Origination epic breakdown |
 | [Stakeholder Analysis](docs/05-stakeholder-analysis.md) | RACI for lending squads |
 | [Glossary](docs/06-glossary.md) | Lending terminology |
+| [To-Be Process Design](docs/07-to-be-process-design.md) | Review findings, income evidence, decision flow, servicing handoff |
+| [Worked Scenarios](docs/08-worked-scenarios.md) | Affordability, counter-offers, withdrawal, cut-offs, business case |
+| [Data and Test Plan](docs/09-data-and-test-plan.md) | Application record, decline reasons, integrations, metrics, UAT |
 | [Requirements Traceability Matrix](artifacts/requirements-traceability-matrix.md) | BR → FR → US mapping |
 
 ## Skills Demonstrated
@@ -25,6 +28,8 @@ Showcases BA deliverables for a personal loan product: credit policy translation
 - Multi-channel origination (app, web, branch)
 - Integration with bureau, open banking, and core banking
 - NFRs for decision latency and regulatory disclosures
+- Requirements quality review, with findings closed through change requests
+- Worked numeric scenarios, edge case registers, and boundary-level UAT plans
 
 ## Disclaimer
 

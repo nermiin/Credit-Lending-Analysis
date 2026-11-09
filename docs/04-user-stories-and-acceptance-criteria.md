@@ -52,3 +52,30 @@
 **So that** I know I can use the loan
 
 - Push + email with amount, value date, and first payment date.
+
+---
+
+### US-LEND-06 — Request human review
+
+**As a** declined applicant  
+**I want** a person to review an automated decision  
+**So that** an error or missing context can be corrected
+
+- Route offered on the decline notice.
+- A different underwriter decides within 5 business days.
+
+---
+
+### US-LEND-07 — Withdraw from the agreement
+
+**As a** customer  
+**I want** to withdraw within 14 days of signing  
+**So that** I can change my mind without penalty
+
+```gherkin
+  Scenario: Withdrawal within the period
+    Given the loan was funded 10 days ago
+    When the customer submits a withdrawal notice
+    Then the payoff shows principal plus daily interest only
+    And the customer has 30 days to return the funds
+```
